@@ -1,0 +1,71 @@
+@charset "UTF-8";
+@font-face {
+    font-family: 'amor';
+    src: url('fontes/Amore.otf') format('opentype');
+}
+    
+
+
+
+body{
+   font-family: 'amor' ,'arial', helvetica ,sans-serif;
+   background: black url(https://img.freepik.com/fotos-premium/luzes-desfocadas-na-forma-de-um-coracao-em-um-fundo-preto_607094-211.jpg?w=740) center no-repeat fixed;
+   background-size: cover;
+
+
+
+}
+
+h1{
+    
+    color: rgb(255, 255, 255);
+    font-family: 'amor', Arial, Helvetica, sans-serif;
+    font-size: 4em;
+    margin: -5px auto 10px auto;
+    width: 150px;
+    text-align: center;
+    letter-spacing: 2px;
+    border-radius: 10px 10px 30px 30px;
+}
+h2{
+    color: rgb(151, 78, 78);
+}
+p{
+    color: rgb(102, 0, 0);
+    
+    
+}
+main{
+    max-width: 500px;
+    background-color: rgb(29, 0, 0);
+    margin: auto;
+    padding: 30px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.726);
+    border-radius: 20px 20px 20px 20px;
+    
+
+}
+img{
+    width: 100%;
+    border-radius: 25%;
+    max-width: 300px;
+    margin: 0 auto 80px auto;
+    display: block;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.726);
+
+    
+
+}
+.musica{
+    color: rgb(255, 255, 255);
+    background-image: linear-gradient(to right, rgb(99, 89, 36), transparent);
+    letter-spacing: 2px;
+}
+div{
+    background-image: linear-gradient(to bottom,rgba(102, 0, 0, 0.11), rgb(92, 0, 0) );
+    padding: 10px 10px 2px 10px;
+    margin: -29px -29px 0 -29px;
+    border-radius: 20px 20px 0 0;
+    display: block;
+}
+
